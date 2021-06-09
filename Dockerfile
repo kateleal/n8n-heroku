@@ -1,4 +1,4 @@
-FROM node:latest-alpine
+FROM node:lts-alpine
 
 # pass N8N_VERSION Argument while building or use default
 ARG N8N_VERSION=0.123.1
